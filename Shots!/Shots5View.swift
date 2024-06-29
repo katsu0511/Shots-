@@ -10,10 +10,15 @@ import SwiftUI
 struct Shots5View: View {
     
     @State var text1 = " "
+    @State var color1 = Color.cyan
     @State var text2 = " "
+    @State var color2 = Color.cyan
     @State var text3 = " "
+    @State var color3 = Color.cyan
     @State var text4 = " "
+    @State var color4 = Color.cyan
     @State var text5 = " "
+    @State var color5 = Color.cyan
     let iValue: Int = Int.random(in: 1 ... 5)
     
     var body: some View {
@@ -23,8 +28,10 @@ struct Shots5View: View {
                     withAnimation(.linear(duration: 0.5)) {
                         if iValue == 1 {
                             text1 = "Drink!"
+                            color1 = Color.red
                         } else {
                             text1 = "Safe"
+                            color1 = Color.mint
                         }
                     }
                 }) {
@@ -32,7 +39,7 @@ struct Shots5View: View {
                         .font(.largeTitle)
                 }
                 .frame(width: 150, height: 150)
-                .background(Color.mint)
+                .background(color1)
                 .foregroundColor(Color.white)
                 .cornerRadius(100)
                 .padding()
@@ -41,8 +48,10 @@ struct Shots5View: View {
                     withAnimation(.linear(duration: 0.5)) {
                         if iValue == 2 {
                             text2 = "Drink!"
+                            color2 = Color.red
                         } else {
                             text2 = "Safe"
+                            color2 = Color.mint
                         }
                     }
                 }) {
@@ -50,7 +59,7 @@ struct Shots5View: View {
                         .font(.largeTitle)
                 }
                 .frame(width: 150, height: 150)
-                .background(Color.mint)
+                .background(color2)
                 .foregroundColor(Color.white)
                 .cornerRadius(100)
                 .padding()
@@ -60,8 +69,10 @@ struct Shots5View: View {
                 withAnimation(.linear(duration: 0.5)) {
                     if iValue == 3 {
                         text3 = "Drink!"
+                        color3 = Color.red
                     } else {
                         text3 = "Safe"
+                        color3 = Color.mint
                     }
                 }
             }) {
@@ -69,7 +80,7 @@ struct Shots5View: View {
                     .font(.largeTitle)
             }
             .frame(width: 150, height: 150)
-            .background(Color.mint)
+            .background(color3)
             .foregroundColor(Color.white)
             .cornerRadius(100)
             .padding()
@@ -79,8 +90,10 @@ struct Shots5View: View {
                     withAnimation(.linear(duration: 0.5)) {
                         if iValue == 4 {
                             text4 = "Drink!"
+                            color4 = Color.red
                         } else {
                             text4 = "Safe"
+                            color4 = Color.mint
                         }
                     }
                 }) {
@@ -88,7 +101,7 @@ struct Shots5View: View {
                         .font(.largeTitle)
                 }
                 .frame(width: 150, height: 150)
-                .background(Color.mint)
+                .background(color4)
                 .foregroundColor(Color.white)
                 .cornerRadius(100)
                 .padding()
@@ -97,8 +110,10 @@ struct Shots5View: View {
                     withAnimation(.linear(duration: 0.5)) {
                         if iValue == 5 {
                             text5 = "Drink!"
+                            color5 = Color.red
                         } else {
                             text5 = "Safe"
+                            color5 = Color.mint
                         }
                     }
                 }) {
@@ -106,7 +121,7 @@ struct Shots5View: View {
                         .font(.largeTitle)
                 }
                 .frame(width: 150, height: 150)
-                .background(Color.mint)
+                .background(color5)
                 .foregroundColor(Color.white)
                 .cornerRadius(100)
                 .padding()
