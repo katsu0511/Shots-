@@ -12,7 +12,6 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 Spacer()
-                    .frame(height: 50.0)
                 
                 Text("Shots!")
                     .font(.largeTitle)
@@ -24,12 +23,12 @@ struct ContentView: View {
                     Text("Play")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
                 
                 Spacer()
-                    .frame(height: 200.0)
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())

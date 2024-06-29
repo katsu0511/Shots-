@@ -51,73 +51,82 @@ struct SetNumberView: View {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 3 {
                 NavigationLink(destination: Shots3View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 4 {
                 NavigationLink(destination: Shots4View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 5 {
                 NavigationLink(destination: Shots5View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 6 {
                 NavigationLink(destination: Shots6View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 7 {
                 NavigationLink(destination: Shots7View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 8 {
                 NavigationLink(destination: Shots8View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 9 {
                 NavigationLink(destination: Shots9View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             } else if num == 10 {
                 NavigationLink(destination: Shots10View()) {
                     Text("Start")
                 }
                 .font(.largeTitle)
-                .frame(maxWidth: 200, minHeight: 48)
+                .frame(maxWidth: 200, minHeight: 54)
                 .background(Color.blue)
                 .foregroundColor(Color.white)
+                .cornerRadius(10.0)
             }
             
             Spacer()
